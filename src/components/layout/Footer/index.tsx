@@ -16,7 +16,8 @@ export function Footer() {
   const header = useRef(null);
   const propose = useRef(null);
   const howItWorks = useRef(null);
-  const whatWeDo = useRef(null);
+  const preseantation = useRef(null);
+  const videos = useRef(null);
   const categories = useRef(null);
   const history = useRef(null);
 
@@ -47,7 +48,7 @@ export function Footer() {
           <ul>
             <li>
               <Link onClick={() => scrollToSection(header)} to={"/"}>
-                Início
+                Quem somos
               </Link>
             </li>
             <li>
@@ -57,16 +58,13 @@ export function Footer() {
             </li>
          
             <li>
-              <Link onClick={() => scrollToSection(whatWeDo)} to={"/#whatWeDo"}>
+              <Link onClick={() => scrollToSection(preseantation)} to={"/#preseantation"}>
                 O que fazemos?
               </Link>
             </li>
-            <li>
-              <Link
-                onClick={() => scrollToSection(categories)}
-                to={"/#categories"}
-              >
-                Categoria
+            <li >
+              <Link onClick={() => scrollToSection(videos)} to={"/videos"}>
+                Videos/Fotos
               </Link>
             </li>
             
@@ -78,9 +76,7 @@ export function Footer() {
         <div className="line"></div>
       </div>
 
-      <h3 className="copyright">
-        © Todos os direitos reservados a
-      </h3>
+    
     </footer>
   );
 }

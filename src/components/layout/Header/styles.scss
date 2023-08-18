@@ -2,23 +2,23 @@ header {
     position: relative;
     left: 0;
     z-index: 98;
- background-color: #e8c687;
+ background-color: var(--white);
     .container {
         display: flex;
         align-items: center;
         justify-content: space-between;
 
         .logo {
-            width: 200px;
-            height: 200px;
-            background: url("../../../assets/logo4.png");
+            width:250px;
+            height: 170px;
+            background: url("../../../assets/logosemfundo2.png");
             background-position: center;
             background-repeat: no-repeat;
-            background-size: contain;
+            background-size: 150% 150%;
         }
 
         span {
-            font-size: 1rem;
+            font-size: 2rem;
             font-weight: 500;
             font-family: "Poppins", sans-serif;
             color: var(--white);
@@ -101,10 +101,14 @@ header {
                 justify-content: space-around;
 
                 li {
-                    color: var(--white);
-                    font-size: 1rem;
-                    font-weight: 300;
+                    color: var(--background);
+                    font-size: 1.2rem;
+                    font-weight: 500;
                     transition: filter 200ms;
+                    font-family: 'Trajan Pro', sans-serif;
+                                                
+                
+
 
                     a {
                         color: inherit;

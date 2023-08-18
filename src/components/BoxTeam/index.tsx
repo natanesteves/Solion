@@ -6,13 +6,10 @@ type OurTeamProps = {
   imgLink: string;
   name: string;
   office: string;
-  link: {
-    instagram: string;
-    tiktok: string;
-  };
+ 
 };
 
-export function BoxTeam({ imgLink, name, office, link }: OurTeamProps) {
+export function BoxTeam({ imgLink, name, office}: OurTeamProps) {
   return (
     <div className="boxTeam">
       <img src={imgLink} alt={`Photo ${name}`} />
@@ -20,14 +17,7 @@ export function BoxTeam({ imgLink, name, office, link }: OurTeamProps) {
       <h2>{name}</h2>
       <span>{office}</span>
 
-      <div className="contentSocialsOurTeam">
-        <a href={link.instagram}>
-          <SiInstagram />
-        </a>
-        <a href={link.tiktok}>
-          <SiTiktok />
-        </a>
-      </div>
+     
     </div>
   );
 }

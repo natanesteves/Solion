@@ -20,7 +20,7 @@ export function Header() {
   const propose = useRef(null);
   const videos = useRef(null);
   const whatWeDo = useRef(null);
-  const categories = useRef(null);
+  const preseantation = useRef(null);
   const history = useRef(null);
 
   const scrollToSection = (elementRef: any) => {
@@ -44,17 +44,7 @@ export function Header() {
     <header id="header">
       <div className="container">
         <div className="logo"></div>
-        <div className="socials">
-          <a href="" className="boxSocials">
-            <SiInstagram />
-          </a>
-         
-         
-          <a href="" className="boxSocials">
-            <SiTwitter />
-          </a>
-          
-        </div>
+        
         <button
           className={`menuButton ${menuIsOpen ? "active" : ""}`}
           onClick={handleMenuIsOpen}
@@ -67,32 +57,25 @@ export function Header() {
           <ul>
             <li onClick={handleMenuIsOpen}>
               <Link onClick={() => scrollToSection(header)} to={"/"}>
-                Início
+               Quem Somos
               </Link>
             </li>
             <li onClick={handleMenuIsOpen}>
               <Link onClick={() => scrollToSection(propose)} to={"/#propose"}>
                 Propósito
               </Link>
+            </li><li onClick={handleMenuIsOpen}>
+              <Link onClick={() => scrollToSection(preseantation)} to={"/#preseantation"}>
+                O que fazemos?
+              </Link>
             </li>
+            
             <li onClick={handleMenuIsOpen}>
               <Link onClick={() => scrollToSection(videos)} to={"/videos"}>
                 Videos/Fotos
               </Link>
             </li>
-            <li onClick={handleMenuIsOpen}>
-              <Link onClick={() => scrollToSection(whatWeDo)} to={"/#whatWeDo"}>
-                O que fazemos?
-              </Link>
-            </li>
-            <li onClick={handleMenuIsOpen}>
-              <Link
-                onClick={() => scrollToSection(categories)}
-                to={"/#categories"}
-              >
-                Contato
-              </Link>
-            </li>
+            
             
           </ul>
         </nav>
@@ -101,7 +84,7 @@ export function Header() {
             <ul>
               <li onClick={handleMenuIsOpen}>
                 <Link onClick={() => scrollToSection(header)} to={"/"}>
-                  Início
+                  Quem Somos
                 </Link>
               </li>
               <li onClick={handleMenuIsOpen}>
@@ -111,27 +94,20 @@ export function Header() {
               </li>
               
               <li onClick={handleMenuIsOpen}>
-                <Link onClick={() => scrollToSection(videos)} to={"/#videos"}>
-                  Videos/Fotos
-                </Link>
-              </li>
-
-              <li onClick={handleMenuIsOpen}>
                 <Link
                   onClick={() => scrollToSection(whatWeDo)}
-                  to={"/#whatWeDo"}
+                  to={"/#preseantation"}
                 >
                   O que fazemos?
                 </Link>
               </li>
               <li onClick={handleMenuIsOpen}>
-                <Link
-                  onClick={() => scrollToSection(categories)}
-                  to={"/#categories"}
-                >
-                  Contato
+                <Link onClick={() => scrollToSection(videos)} to={"/#videos"}>
+                  Videos/Fotos
                 </Link>
               </li>
+
+              
              
             </ul>
           </nav>
@@ -139,7 +115,7 @@ export function Header() {
       </div>
 
       <div className="container">
-        <div className="line"></div>
+        
       </div>
     </header>
   );

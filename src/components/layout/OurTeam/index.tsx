@@ -5,38 +5,50 @@ export function OurTeam() {
   return (
     <section className="ourTeam">
       <div className="container">
-        <div className="title">
-          <h1>Nossa Equipe</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-        </div>
+       
 
         <div className="contentOurTeam">
           <BoxTeam
-            imgLink="https://pps.whatsapp.net/v/t61.24694-24/106314515_128951465506587_2679962396745859390_n.jpg?ccb=11-4&oh=01_AdQ30-2Ah4uOxlckKegPQohVc7gJUcoq_bHkE9Mb3jfelA&oe=64C3FEB9"
-            name="Natan Esteves"
-            office="Programador"
-            link={{
-              instagram: "",
-              tiktok: "",
-            }}
+            imgLink="https://img.freepik.com/vetores-gratis/energia-renovavel_24877-49215.jpg?size=626&ext=jpg&ga=GA1.2.1271341864.1692020278&semt=ais"
+            name="Economia de energia"
+            office=""
+            
           />
           <BoxTeam
-            imgLink="https://pps.whatsapp.net/v/t61.24694-24/342950510_1586916895153697_2222690074104778513_n.jpg?ccb=11-4&oh=01_AdRj0RSGihwts11kcY_IZID1MAsECp15V5t2PIWf-rXCAg&oe=64C3F7BB"
-            name="Bruno Castilho"
-            office="Dono/CEO"
-            link={{
-              instagram: "",
-              tiktok: "",
-            }}
+            imgLink="https://img.freepik.com/vetores-premium/vetor-de-estoque-de-logotipo-de-chave-de-fenda_535345-677.jpg?size=626&ext=jpg&ga=GA1.2.1271341864.1692020278&semt=ais"
+            name="Baixa manutenção"
+            office=""
+           
           />
           <BoxTeam
-            imgLink="https://pps.whatsapp.net/v/t61.24694-24/328156737_578904924090624_7763975403522391552_n.jpg?ccb=11-4&oh=01_AdTuZV28xcRhefYUVtShrifn1-XfmpqFvKbmg30QTfucOg&oe=64BFE6CD"
-            name="Dr Ronald Ledo"
-            office="CEO"
-            link={{
-              instagram: "",
-              tiktok: "",
-            }}
+            imgLink="https://img.freepik.com/vetores-gratis/conceito-de-ecologia-com-lampada-em-estilo-de-jornal_23-2148422954.jpg?size=626&ext=jpg&ga=GA1.2.1271341864.1692020278&semt=ais"
+            name="Energia sustentável"
+            office=""
+            
+          />
+           <BoxTeam
+            imgLink="https://img.freepik.com/vetores-premium/avaliacao-de-imoveis-conceito-de-negocio-isometrico-conceito-de-emprestimo-hipotecario-imobiliario_100456-8953.jpg?size=626&ext=jpg&ga=GA1.2.1271341864.1692020278&semt=ais"
+            name="Valorização do imóvel"
+            office=""
+            
+          />
+          <BoxTeam
+            imgLink="https://img.freepik.com/vetores-gratis/conceito-csr-plano-organico-ilustrado_23-2148920362.jpg?size=626&ext=jpg&ga=GA1.2.1271341864.1692020278&semt=ais"
+            name="Incentivos fiscais"
+            office=""
+           
+          />
+          <BoxTeam
+            imgLink="https://img.freepik.com/vetores-premium/conceito-do-dia-internacional-da-energia-dia-mundial-do-meio-ambiente-conservacao-nacional-de-energia-salve-a-terra_651618-438.jpg?size=626&ext=jpg&ga=GA1.2.1271341864.1692020278&semt=ais"
+            name="Independência energética"
+            office=""
+            
+          />
+          <BoxTeam
+            imgLink="https://img.freepik.com/vetores-gratis/reciclar-setas-circulares-com-marca-de-selecao_78370-871.jpg?size=626&ext=jpg&ga=GA1.2.1271341864.1692020278&semt=ais"
+            name="Flexibilidade de instalação"
+            office=""
+            
           />
          
         </div>
