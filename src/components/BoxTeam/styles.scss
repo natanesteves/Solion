@@ -1,8 +1,9 @@
 .boxTeam {
     width: 32%;
+    height: 45%;
     text-align: center;
     margin: 0.5rem 0;
-
+    border-radius: 1rem;
     @media (max-width: 830px) {
         width: 48%;
     }
@@ -12,16 +13,17 @@
     }
 
     img {
-        width: 100%;
-        height: 300px;
+        width: 100px;
+        height: 100px;
         object-fit: cover;
         border-radius: 1rem;
+        margin-top: 10px;
     }
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: 600;
-        color: var(--main-color);
+        color: var(--white);
         font-family: "Poppins", sans-serif;
 
         @media (max-width: 630px) {

@@ -10,9 +10,7 @@ import "../styles/pages/home.scss";
 import { FiHeart } from "react-icons/fi";
 import { useState } from "react";
 
-// Images
-let pic1 =require("../assets/pngtree-thunder-and-bolt-lighting-flash-vector-png-image_4723241.jpg");
-
+// Imagess
 export function Home() {
 
   const [num, setNum] = useState(95);
@@ -61,6 +59,9 @@ const opts: YouTubeProps["opts"] = {
             <div className="container">
               <h1 className="informationTitle">Assista o Video</h1>
       <YouTube videoId="ihFAXdu7n2E" opts={opts} />
+      <a>
+       <Button text="Faça a sua Simulação Agora" /></a>
+      <h2><a>Conheça as vantagens de contratar nosso serviços</a></h2>
         </div>
       </section>
         </div>
