@@ -2,13 +2,13 @@ import { BoxTeam } from "../../BoxTeam";
 import "./styles.scss";
 
 export function OurTeam() {
-const a1 = require("../../../assets/icons/2.png")
-const a2 = require("../../../assets/icons/6.png")
-const a3 = require("../../../assets/icons/9.png")
-const a4 = require("../../../assets/icons/8.png")
-const a5 = require("../../../assets/icons/3.png")
-const a6 = require("../../../assets/icons/7.png")
-const a7 = require("../../../assets/icons/10.png")
+const a1 = require("../../../assets/icons/3.png")
+const a2 = require("../../../assets/icons/7.png")
+const a3 = require("../../../assets/icons/4.png")
+const a4 = require("../../../assets/icons/1.png")
+const a5 = require("../../../assets/icons/18.png")
+const a6 = require("../../../assets/icons/5.png")
+const a7 = require("../../../assets/icons/6.png")
 
   return (
     <section className="ourTeam">

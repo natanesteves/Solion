@@ -50,7 +50,7 @@ const opts: YouTubeProps["opts"] = {
           
           </div>
           
-        </div><a>
+        </div><a href="https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAE-4hthURFVEN1FBSEZBSEpJOTZITFY5NjBKSVVHUC4u">
        <Button text="Faça a sua Simulação Agora" /></a>
       </section>
  
@@ -59,8 +59,8 @@ const opts: YouTubeProps["opts"] = {
             <div className="container">
               <h1 className="informationTitle">Assista o Video</h1>
       <YouTube videoId="ihFAXdu7n2E" opts={opts} />
-      <a>
-       <Button text="Faça a sua Simulação Agora" /></a>
+      <a href="https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAE-4hthURFVEN1FBSEZBSEpJOTZITFY5NjBKSVVHUC4u">
+       <Button text={"Faça a sua Simulação Agora"} /></a>
       <h2><a>Conheça as vantagens de contratar nosso serviços</a></h2>
         </div>
       </section>
