@@ -13,7 +13,6 @@ import "./styles.scss";
 // Icon
 import { FiMenu, FiX } from "react-icons/fi";
 
-var OpenSea = require("../../../assets/icons/opensea.png");
 
 export function Header() {
   const header = useRef(null);

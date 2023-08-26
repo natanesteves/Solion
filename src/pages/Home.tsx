@@ -1,5 +1,6 @@
 // Components
 import { OurTeam } from "../components/layout/OurTeam";
+import { OurTeam2 } from "../components/layout/OurTeam2";
 import { Button } from "../components/Button";
 import { Categories } from "../components/Categories";
 import { Doubts } from "../components/Doubts";
@@ -9,10 +10,11 @@ import YouTube, { YouTubeProps } from "react-youtube";
 import "../styles/pages/home.scss";
 import { FiHeart } from "react-icons/fi";
 import { useState } from "react";
+import { BoxTeam } from "../components/BoxTeam";
 
 // Imagess
 export function Home() {
-
+  const a5 = require("../assets/icons/18.png")
   const [num, setNum] = useState(95);
 
 
@@ -69,14 +71,15 @@ const opts: YouTubeProps["opts"] = {
  
  <OurTeam />
 
-   
+ <OurTeam2 />
+ 
 
-     
-
-    
 
 
       <section className="presentation" id="preseantation">
+        
+        
+        
         <div className="container">
           <div className="descriptionPresentation">
             <h1>Missão visão e valores</h1>

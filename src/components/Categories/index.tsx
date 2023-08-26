@@ -5,12 +5,18 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import "./styles.scss";
 
 export function Categories() {
+
+  const a1 = require("../../assets/icons/7.png")
+const a2 = require("../../assets/icons/7.png")
+const a3 = require("../../assets/icons/4.png")
+const a4 = require("../../assets/icons/1.png")
   const breakPoints = {
     200: { items: 1 },
     600: { items: 2 },
     1000: { items: 3 },
     1600: { items: 4 },
     1700: { items: 5 },
+
   };
 
   return (
@@ -23,265 +29,32 @@ export function Categories() {
 
       <OwlCarousel
         className="owl-theme"
-        items={5}
-        loop
+        items={4}
+     
         margin={5}
-        stagePadding={50}
+        stagePadding={5}
         responsive={breakPoints}
       >
         <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
+          imgLink={a1}
           name="Nome da NFT o mais curto possível"
           link="https://github.com/Hildebrando-Viana-Matos"
         />
         <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
+          imgLink={a2}
           name="Nome da NFT o mais curto possível"
           link="https://github.com/Hildebrando-Viana-Matos"
         />
         <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-      </OwlCarousel>
-
-      <div className="container">
-        <h2>Categoria 2</h2>
-      </div>
-
-      <OwlCarousel
-        className="owl-theme"
-        items={5}
-        loop
-        margin={5}
-        stagePadding={50}
-        responsive={breakPoints}
-      >
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-      </OwlCarousel>
-
-      <div className="container">
-        <h2>Categoria 3</h2>
-      </div>
-
-      <OwlCarousel
-        className="owl-theme"
-        items={5}
-        loop
-        margin={5}
-        stagePadding={50}
-        responsive={breakPoints}
-      >
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
-        <BoxCategories
-          imgLink="https://github.com/Hildebrando-Viana-Matos.png"
-          name="Nome da NFT o mais curto possível"
-          link="https://github.com/Hildebrando-Viana-Matos"
-        />
+        imgLink={a3}
+        name="Nome da NFT o mais curto possível"
+        link="https://github.com/Hildebrando-Viana-Matos"
+      />
+         <BoxCategories
+        imgLink={a4}
+        name="Nome da NFT o mais curto possível"
+        link="https://github.com/Hildebrando-Viana-Matos"
+      />
       </OwlCarousel>
     </section>
   );
