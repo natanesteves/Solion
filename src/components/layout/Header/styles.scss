@@ -9,12 +9,18 @@ header {
         justify-content: space-between;
 
         .logo {
-            width:250px;
-            height: 170px;
+            margin-left: 30%;
+            width:350px;
+            height: 270px;
             background: url("../../../assets/logosemfundo2.png");
             background-position: center;
             background-repeat: no-repeat;
             background-size: 150% 150%;
+            @media (max-width: 830px) {
+               margin-left: 0%;
+               width:250px;
+               height: 170px;
+            }
         }
 
         span {

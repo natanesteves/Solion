@@ -56,22 +56,22 @@ export function Header() {
           <ul>
             <li onClick={handleMenuIsOpen}>
               <Link onClick={() => scrollToSection(header)} to={"/"}>
-               Quem Somos
+               Home
               </Link>
             </li>
             <li onClick={handleMenuIsOpen}>
               <Link onClick={() => scrollToSection(propose)} to={"/#propose"}>
-                Propósito
+                Vantagens
               </Link>
             </li><li onClick={handleMenuIsOpen}>
               <Link onClick={() => scrollToSection(preseantation)} to={"/#preseantation"}>
-                O que fazemos?
+               Projetos
               </Link>
             </li>
             
             <li onClick={handleMenuIsOpen}>
               <Link onClick={() => scrollToSection(videos)} to={"/videos"}>
-                Videos/Fotos
+                Nossos Serviços
               </Link>
             </li>
             
@@ -83,12 +83,12 @@ export function Header() {
             <ul>
               <li onClick={handleMenuIsOpen}>
                 <Link onClick={() => scrollToSection(header)} to={"/"}>
-                  Quem Somos
+                  Home
                 </Link>
               </li>
               <li onClick={handleMenuIsOpen}>
                 <Link onClick={() => scrollToSection(propose)} to={"/#propose"}>
-                  Propósito
+                  Vantagens
                 </Link>
               </li>
               
@@ -97,12 +97,12 @@ export function Header() {
                   onClick={() => scrollToSection(whatWeDo)}
                   to={"/#preseantation"}
                 >
-                  O que fazemos?
+                 Projetos
                 </Link>
               </li>
               <li onClick={handleMenuIsOpen}>
                 <Link onClick={() => scrollToSection(videos)} to={"/#videos"}>
-                  Videos/Fotos
+                  Nossos Serviços
                 </Link>
               </li>
 

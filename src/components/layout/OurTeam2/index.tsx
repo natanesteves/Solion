@@ -2,10 +2,10 @@ import { BoxTeam2 } from "../../BoxTeam2";
 import "./styles.scss";
 
 export function OurTeam2() {
-const a1 = require("../../../assets/icons/23.png")
-const a2 = require("../../../assets/icons/24.png")
-const a3 = require("../../../assets/icons/25.png")
-const a4 = require("../../../assets/icons/26.png")
+const a1 = require("../../../assets/icons/26.png")
+const a2 = require("../../../assets/icons/23.png")
+const a3 = require("../../../assets/icons/24.png")
+const a4 = require("../../../assets/icons/25.png")
 
   return (
     <section className="ourTeam">

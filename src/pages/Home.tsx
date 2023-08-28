@@ -19,8 +19,8 @@ export function Home() {
 
 
 const opts: YouTubeProps["opts"] = {
-  height: "390",
-  width: "640",
+  height: "590",
+  width: "940",
   playerVars: {
     // https://developers.google.com/youtube/player_parameters
     autoplay: 1,
@@ -70,7 +70,7 @@ const opts: YouTubeProps["opts"] = {
  
  
  <OurTeam />
-
+ <h2 className="preguica"><a>A Solion tem soluções especificas para você</a></h2>
  <OurTeam2 />
  
 
@@ -82,14 +82,21 @@ const opts: YouTubeProps["opts"] = {
         
         <div className="container">
           <div className="descriptionPresentation">
-            <h1>Missão visão e valores</h1>
-            <p>
-            Missão: Prestar um serviço e alta qualidade a nossos clientes, com o cumprimento dos devidos prazos e a entrega do que foi oferecido, em paralelo contribuir com o meio ambiente e satisfazer os clientes a partir de fontes renováveis e não poluidoras, alcançando um ambiente sustentável e ecológico, obtendo destaque e sucesso no mercado de trabalho.
-Visão: Ser referência entre os melhores no segmento de atuação em sustentabilidade e geração de uma energia contribuinte para o meio ambiente.
-Valores: Respeito, Comprometimento, Ética, Qualificação e Sustentabilidade.
-            </p>
             
-          </div>
+            
+            
+<h1>Missão</h1>
+            <p>
+             Prestar um serviço e alta qualidade a nossos clientes, com o cumprimento dos devidos prazos e a entrega do que foi oferecido, em paralelo contribuir com o meio ambiente e satisfazer os clientes a partir de fontes renováveis e não poluidoras, alcançando um ambiente sustentável e ecológico, obtendo destaque e sucesso no mercado de trabalho.
+</p>
+<h1>Visão</h1>
+<p>
+            Ser referência entre os melhores no segmento de atuação em sustentabilidade e geração de uma energia contribuinte para o meio ambiente.
+</p>
+<h1>Valores</h1>
+<p>
+Respeito, Comprometimento, Ética, Qualificação e Sustentabilidade.
+</p>          </div>
           <div className="imgPresentation"></div>
         </div>
         

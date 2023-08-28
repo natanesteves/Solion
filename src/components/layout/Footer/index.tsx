@@ -48,23 +48,23 @@ export function Footer() {
           <ul>
             <li>
               <Link onClick={() => scrollToSection(header)} to={"/"}>
-                Quem somos
+               Home
               </Link>
             </li>
             <li>
               <Link onClick={() => scrollToSection(propose)} to={"/#propose"}>
-                Propósito
+                Vantagens
               </Link>
             </li>
          
             <li>
               <Link onClick={() => scrollToSection(preseantation)} to={"/#preseantation"}>
-                O que fazemos?
+               Projetos
               </Link>
             </li>
             <li >
               <Link onClick={() => scrollToSection(videos)} to={"/videos"}>
-                Videos/Fotos
+               Nosso Serviços
               </Link>
             </li>
             
