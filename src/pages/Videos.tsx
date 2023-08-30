@@ -39,9 +39,9 @@ export function Videos() {
             <div className="container">
              
             
-              <YouTube videoId="ihFAXdu7n2E" opts={opts} />
-              <YouTube videoId="JSMCxcPk-AM" opts={opts} />
-              <YouTube videoId="xoqJ2JNJvBA" opts={opts} />
+             <div className="vi"></div> <YouTube videoId="ihFAXdu7n2E" opts={opts} />
+             <div className="vi"><YouTube videoId="JSMCxcPk-AM" opts={opts} /></div>
+             <div className="vi"><YouTube videoId="xoqJ2JNJvBA" opts={opts} /></div>
             </div>
             <h1 className="informationTitle">Fotos das Instalações</h1>
             
