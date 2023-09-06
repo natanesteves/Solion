@@ -25,7 +25,7 @@ const opts: YouTubeProps["opts"] = {
   width: "640",
   playerVars: {
     // https://developers.google.com/youtube/player_parameters
-    autoplay: 1,
+    
   },
 };
 
@@ -38,9 +38,9 @@ export function Videos() {
           <h1 className="informationTitle">Instalações</h1>
             <div className="container">
              
+             <div className="vi"><YouTube videoId="-Yc1Og-LfoU" opts={opts} /></div>
+             <div className="vi"></div> <YouTube videoId="QRHg7VpSyFc" opts={opts} />
             
-             <div className="vi"></div> <YouTube videoId="ihFAXdu7n2E" opts={opts} />
-             <div className="vi"><YouTube videoId="JSMCxcPk-AM" opts={opts} /></div>
              <div className="vi"><YouTube videoId="xoqJ2JNJvBA" opts={opts} /></div>
             </div>
             <h1 className="informationTitle">Fotos das Instalações</h1>

@@ -23,7 +23,7 @@ const opts: YouTubeProps["opts"] = {
   width: "940",
   playerVars: {
     // https://developers.google.com/youtube/player_parameters
-    autoplay: 1,
+    
   },
 };
 
@@ -60,7 +60,7 @@ const opts: YouTubeProps["opts"] = {
           <section className="information">
             <div className="container">
               <h1 className="informationTitle">Assista o Video</h1>
-      <YouTube videoId="ihFAXdu7n2E" opts={opts} />
+      <YouTube videoId="QRHg7VpSyFc" opts={opts} />
       <a href="https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAE-4hthURFVEN1FBSEZBSEpJOTZITFY5NjBKSVVHUC4u">
        <Button text={"Faça a sua Simulação Agora"} /></a>
       <h2><a>Conheça as vantagens de contratar nosso serviços</a></h2>
