@@ -15,11 +15,10 @@ var OpenSea = require("../../../assets/icons/opensea_white.png");
 export function Footer() {
   const header = useRef(null);
   const propose = useRef(null);
-  const howItWorks = useRef(null);
+  const transparency = useRef(null);
   const preseantation = useRef(null);
   const videos = useRef(null);
-  const categories = useRef(null);
-  const history = useRef(null);
+  const asuamae = useRef(null);
 
   const scrollToSection = (elementRef: any) => {
     window.scrollTo({
@@ -52,14 +51,14 @@ export function Footer() {
               </Link>
             </li>
             <li>
-              <Link onClick={() => scrollToSection(propose)} to={"/#propose"}>
+              <Link onClick={() => scrollToSection(asuamae)} to={"/#asuamae"}>
                 Vantagens
               </Link>
             </li>
          
             <li>
               <Link onClick={() => scrollToSection(preseantation)} to={"/#preseantation"}>
-               Projetos
+              Quem Somos
               </Link>
             </li>
             <li >
@@ -67,7 +66,11 @@ export function Footer() {
                Nosso Serviços
               </Link>
             </li>
-            
+            <li >
+              <Link onClick={() => scrollToSection(transparency)} to={"/transparency"}>
+               Trabalhe Conosco
+              </Link>
+            </li>
           </ul>
         </nav>
       </div>

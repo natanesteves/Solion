@@ -16,11 +16,11 @@ import { FiMenu, FiX } from "react-icons/fi";
 
 export function Header() {
   const header = useRef(null);
-  const propose = useRef(null);
+  const transparency = useRef(null);
   const videos = useRef(null);
   const whatWeDo = useRef(null);
   const preseantation = useRef(null);
-  const history = useRef(null);
+  const asuamae = useRef(null);
 
   const scrollToSection = (elementRef: any) => {
     window.scrollTo({
@@ -60,12 +60,12 @@ export function Header() {
               </Link>
             </li>
             <li onClick={handleMenuIsOpen}>
-              <Link onClick={() => scrollToSection(propose)} to={"/#propose"}>
+              <Link onClick={() => scrollToSection(asuamae)} to={"/#asuamae"}>
                 Vantagens
               </Link>
             </li><li onClick={handleMenuIsOpen}>
               <Link onClick={() => scrollToSection(preseantation)} to={"/#preseantation"}>
-               Projetos
+               Quem Somos
               </Link>
             </li>
             
@@ -75,6 +75,11 @@ export function Header() {
               </Link>
             </li>
             
+            <li onClick={handleMenuIsOpen}>
+              <Link onClick={() => scrollToSection(transparency)} to={"/transparency"}>
+                Trabalhe conosco 
+              </Link>
+            </li>
             
           </ul>
         </nav>
@@ -87,7 +92,7 @@ export function Header() {
                 </Link>
               </li>
               <li onClick={handleMenuIsOpen}>
-                <Link onClick={() => scrollToSection(propose)} to={"/#propose"}>
+                <Link onClick={() => scrollToSection(asuamae)} to={"/#asuamae"}>
                   Vantagens
                 </Link>
               </li>
@@ -97,7 +102,7 @@ export function Header() {
                   onClick={() => scrollToSection(whatWeDo)}
                   to={"/#preseantation"}
                 >
-                 Projetos
+                 Quem Somos
                 </Link>
               </li>
               <li onClick={handleMenuIsOpen}>
@@ -106,6 +111,11 @@ export function Header() {
                 </Link>
               </li>
 
+              <li onClick={handleMenuIsOpen}>
+                <Link onClick={() => scrollToSection(transparency)} to={"/#transparency"}>
+                  Trabalhe Conosco
+                </Link>
+              </li>
               
              
             </ul>

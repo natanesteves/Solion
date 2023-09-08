@@ -63,25 +63,28 @@ const opts: YouTubeProps["opts"] = {
       <YouTube videoId="QRHg7VpSyFc" opts={opts} />
       <a href="https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAE-4hthURFVEN1FBSEZBSEpJOTZITFY5NjBKSVVHUC4u">
        <Button text={"Faça a sua Simulação Agora"} /></a>
-      <h2><a>Conheça as vantagens de contratar nosso serviços</a></h2>
+      
         </div>
       </section>
         </div>
  
- 
+ <section className="asuamae" id="asuamae">
+ <div className="title">
+  <div className="container">
+  <h2 ><a>Conheça as vantagens de contratar nosso serviços</a></h2></div></div>
  <OurTeam />
- <h2 className="preguica"><a>A Solion tem soluções especificas para você</a></h2>
- <OurTeam2 />
  
+ </section>
 
-
+<h2 className="preguica"><a>A Solion tem soluções especificas para você</a></h2>
+ <OurTeam2 />
 
       <section className="presentation" id="preseantation">
         
         
-        
+        <h1 className="preguica2"><a>Quem Somos</a></h1>
         <div className="container">
-          <div className="descriptionPresentation">
+         <div className="descriptionPresentation">
             
             
             
