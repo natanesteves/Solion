@@ -19,6 +19,7 @@ export function Footer() {
   const preseantation = useRef(null);
   const videos = useRef(null);
   const asuamae = useRef(null);
+  const asuamae2 = useRef(null);
 
   const scrollToSection = (elementRef: any) => {
     window.scrollTo({
@@ -64,6 +65,11 @@ export function Footer() {
             <li >
               <Link onClick={() => scrollToSection(videos)} to={"/videos"}>
                Nosso Serviços
+              </Link>
+            </li>
+            <li >
+              <Link onClick={() => scrollToSection(asuamae2)} to={"/#asuamae2"}>
+               Soluções
               </Link>
             </li>
             <li >

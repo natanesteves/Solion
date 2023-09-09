@@ -21,6 +21,7 @@ export function Header() {
   const whatWeDo = useRef(null);
   const preseantation = useRef(null);
   const asuamae = useRef(null);
+  const asuamae2 = useRef(null);
 
   const scrollToSection = (elementRef: any) => {
     window.scrollTo({
@@ -74,7 +75,12 @@ export function Header() {
                 Nossos Serviços
               </Link>
             </li>
-            
+            <li onClick={handleMenuIsOpen}>
+              <Link onClick={() => scrollToSection(asuamae2)} to={"/#asuamae2"}>
+                Soluções
+              </Link>
+            </li>
+
             <li onClick={handleMenuIsOpen}>
               <Link onClick={() => scrollToSection(transparency)} to={"/transparency"}>
                 Trabalhe conosco 
@@ -110,11 +116,15 @@ export function Header() {
                   Nossos Serviços
                 </Link>
               </li>
-
               <li onClick={handleMenuIsOpen}>
+                <Link onClick={() => scrollToSection(asuamae2)} to={"/#asuamae2"}>
+                 Soluções
+                </Link>
+              </li>
+              <li onClick={handleMenuIsOpen}><a href="https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAGSGhhhUNlVIRzdKMDlHT1c4UVJYSlM4UU5PRThKUi4u" >
                 <Link onClick={() => scrollToSection(transparency)} to={"/#transparency"}>
                   Trabalhe Conosco
-                </Link>
+                </Link></a>
               </li>
               
              

@@ -75,9 +75,11 @@ const opts: YouTubeProps["opts"] = {
  <OurTeam />
  
  </section>
-
+ 
+ <section className="asuamae2" id="asuamae2">
 <h2 className="preguica"><a>A Solion tem soluções especificas para você</a></h2>
  <OurTeam2 />
+ </section>
 
       <section className="presentation" id="preseantation">
         
