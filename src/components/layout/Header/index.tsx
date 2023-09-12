@@ -110,7 +110,7 @@ export function Header() {
                 </Link>
               </li>
               <li onClick={handleMenuIsOpen}>
-                <Link onClick={() => scrollToSection(videos)} to={"/#videos"}>
+                <Link onClick={() => scrollToSection(videos)} to={"/videos"}>
                   Nossos Serviços
                 </Link>
               </li>
