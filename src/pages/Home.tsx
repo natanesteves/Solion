@@ -71,7 +71,7 @@ const opts: YouTubeProps["opts"] = {
  <section className="asuamae" id="asuamae">
  <div className="title">
   <div className="container">
-  <h2 ><a>Conheça as vantagens de contratar nosso serviços</a></h2></div></div>
+  <h2 ><a>Conheça as vantagens de contratar nossos serviços</a></h2></div></div>
  <OurTeam />
  <a href="https://forms.office.com/r/5B0MSARs8f ">
        <Button text={"Faça a sua Simulação Agora"} /></a>
@@ -93,7 +93,7 @@ const opts: YouTubeProps["opts"] = {
             
 <h1>Missão</h1>
             <p>
-             Prestar um serviço e alta qualidade a nossos clientes, com o cumprimento dos devidos prazos e a entrega do que foi oferecido, em paralelo contribuir com o meio ambiente e satisfazer os clientes a partir de fontes renováveis e não poluidoras, alcançando um ambiente sustentável e ecológico, obtendo destaque e sucesso no mercado de trabalho.
+             Prestar um serviço de alta qualidade a nossos clientes, com o cumprimento dos devidos prazos e a entrega do que foi oferecido, em paralelo contribuir com o meio ambiente e satisfazer os clientes a partir de fontes renováveis e não poluidoras, alcançando um ambiente sustentável e ecológico, obtendo destaque e sucesso no mercado de trabalho.
 </p>
 <h1>Visão</h1>
 <p>
