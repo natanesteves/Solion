@@ -2,7 +2,7 @@
 import { useRef } from "react";
 
 // Icons
-import { SiInstagram, SiTiktok, SiDiscord, SiTwitter } from "react-icons/si";
+import { SiInstagram, SiTwitter, SiFacebook } from "react-icons/si";
 
 // React Router Dom
 import { Link } from "react-router-dom";
@@ -33,12 +33,12 @@ export function Footer() {
       <div className="container">
         
         <div className="socials">
-          <a href="" className="boxSocials">
+          <a href="https://www.instagram.com/solionenergiasolar/" className="boxSocials">
             <SiInstagram />
           </a>
          
-          <a href="" className="boxSocials">
-            <SiTwitter />
+          <a href="https://www.facebook.com/profile.php?id=61551026673737" className="boxSocials">
+            <SiFacebook />
           </a>
           
         </div>
@@ -73,10 +73,9 @@ export function Footer() {
               </Link>
             </li>
             <li >
-              <Link onClick={() => scrollToSection(transparency)} to={"/transparency"}>
-               Trabalhe Conosco
-              </Link>
+            <a href="https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAGSGhhhUNlVIRzdKMDlHT1c4UVJYSlM4UU5PRThKUi4u"> Trabalhe Conosco</a>
             </li>
+            
           </ul>
         </nav>
       </div>

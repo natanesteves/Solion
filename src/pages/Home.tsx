@@ -60,7 +60,7 @@ const opts: YouTubeProps["opts"] = {
           <section className="information">
             <div className="container">
               <h1 className="informationTitle">Assista o Video</h1>
-      <YouTube videoId="QRHg7VpSyFc" opts={opts} />
+      <YouTube videoId="LOUyLqW-Cu8" opts={opts} />
       <a href="https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAE-4hthURFVEN1FBSEZBSEpJOTZITFY5NjBKSVVHUC4u">
        <Button text={"Faça a sua Simulação Agora"} /></a>
       

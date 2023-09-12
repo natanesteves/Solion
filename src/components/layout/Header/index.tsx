@@ -81,10 +81,8 @@ export function Header() {
               </Link>
             </li>
 
-            <li onClick={handleMenuIsOpen}>
-              <Link onClick={() => scrollToSection(transparency)} to={"/transparency"}>
-                Trabalhe conosco 
-              </Link>
+            <li >
+            <a href="https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAGSGhhhUNlVIRzdKMDlHT1c4UVJYSlM4UU5PRThKUi4u"> Trabalhe Conosco</a>
             </li>
             
           </ul>
@@ -121,11 +119,9 @@ export function Header() {
                  Soluções
                 </Link>
               </li>
-              <li onClick={handleMenuIsOpen}>
-                <Link onClick={() => scrollToSection(transparency)} to={"/#transparency"}>
-                  Trabalhe Conosco
-                </Link>
-              </li>
+              <li >
+            <a href="https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAGSGhhhUNlVIRzdKMDlHT1c4UVJYSlM4UU5PRThKUi4u"> Trabalhe Conosco</a>
+            </li>
               
              
             </ul>
