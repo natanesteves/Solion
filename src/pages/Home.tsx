@@ -20,7 +20,7 @@ export function Home() {
 
 const opts: YouTubeProps["opts"] = {
   height: "590",
-  width: "940",
+  width: "100%",
   playerVars: {
     // https://developers.google.com/youtube/player_parameters
     
