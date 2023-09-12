@@ -22,7 +22,7 @@ let pic13=require("../assets/foto14.jpeg");
 
 const opts: YouTubeProps["opts"] = {
   height: "390",
-  width: "640",
+  width: "100%",
   playerVars: {
     // https://developers.google.com/youtube/player_parameters
     
